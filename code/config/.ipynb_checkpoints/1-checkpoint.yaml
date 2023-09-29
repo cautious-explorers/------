@@ -1,0 +1,30 @@
+#version
+version: '1'
+
+#文件位置
+datasetname: './dataset/socialdata_with_features'
+source_data_path : '/storage/data/yangxsh/network_graph/data/'
+
+#数据操作
+valsize : .1
+treat_imbalance: True
+
+#训练
+seed: 42
+lr : .01
+dropout: .5
+epochs: 200
+str_optimizer: 'Adam' 
+weight_decay : 0.0005  #Adam
+momentum : 0.9 #SGD
+early_stopping: 20  #向前回溯几次
+heads: 4
+feature: 'Not None'
+
+#模型
+model: 'GAT'
+hid_c: 32
+out_c: 2
+
+
+
