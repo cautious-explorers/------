@@ -1,4 +1,4 @@
-题目：(讯飞社交账号网络分类挑战赛)[http://challenge.xfyun.cn/topic/info?type=social-media-account&option=ssgy]:利用无向图的连接数据，确定图中节点的类别。
+题目：[讯飞社交账号网络分类挑战赛](http://challenge.xfyun.cn/topic/info?type=social-media-account&option=ssgy):利用无向图的连接数据，确定图中节点的类别。
 
 解决方法：
 1. best solutions:本地十折交叉acc.8662，样本外acc为.8682
